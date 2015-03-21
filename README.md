@@ -119,7 +119,7 @@ Lastly, when I examine data, I like to look at a pair-wise plot to see the relat
 ## pairs for all metrics
 pairs(train[, 1:4], col=train$species, upper.panel=NULL)
 ```
-[!Alt text](./images/pairwise_plot.png)
+![Alt text](./images/pairwise_plot.png)
 
 <h2>Model Building Part 1: Using the Original Features</h2>
 <h5>Model Building</h5>
@@ -208,7 +208,7 @@ summary(prcomp)
 ```r
 plot(prcomp, type='l')
 ```
-[!Alt text](./images/prcomp.png)
+![Alt text](./images/prcomp.png)
 
 You can see from the summary output and the plot that the first two principal components explain the majority of the variance in the data (more than 95%). The first principal component alone explains more than 75% of the variance.
 
